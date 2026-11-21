@@ -36,8 +36,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Environment files
-.env
-.env.local
 .env.*.local
 !.env.example
 !.env.local.example
@@ -45,7 +43,6 @@ pnpm-debug.log*
 # Editor & OS
 .DS_Store
 Thumbs.db
-.vscode
 *.swp
 *.swo
 
@@ -102,3 +99,4 @@ backend/test/CONCURRENCY_TEST_REPORT.md
 backend/.env
 frontend/.env.local
 storybook-static/
+config.bat
